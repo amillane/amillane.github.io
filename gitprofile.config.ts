@@ -37,7 +37,7 @@ const CONFIG = {
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
           imageUrl:
-            'https://imgur.com/a/wMRbkMJ',
+            'https://postimg.cc/zL2gC6v0',
           link: 'https://example.com',
         },
         {
