@@ -83,20 +83,13 @@ const CONFIG = {
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+   'R',
+  'Python',
+    'SQL',
+    'sklearn',
+    'tidymodels',
+    'Excel'
+    
   ],
   experiences: [
     {
@@ -124,16 +117,16 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Brigham Young University',
+      degree: 'Masters of Statistics',
+      from: '2023',
+      to: 'Present',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Brigham Young University',
+      degree: 'Bachelors of Statistics',
+      from: '2019',
+      to: '2023',
     },
   ],
   publications: [
