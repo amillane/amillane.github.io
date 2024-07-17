@@ -44,7 +44,7 @@ const CONFIG = {
           title: 'Project Name',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:'public/test.jpeg',
+          imageUrl:'/amillane.github.io/public/test.jpeg',
           link: 'https://example.com',
         },
       ],
