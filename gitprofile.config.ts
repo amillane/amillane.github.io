@@ -53,7 +53,7 @@ const CONFIG = {
   seo: {
     title: 'Portfolio of Drew Millane',
     description: '',
-    imageURL: 'https://github.com/amillane/amillane.github.io/blob/main/public/Stunning%20designs.png?raw=true',
+    imageURL: 'https://github.com/amillane/amillane.github.io/blob/main/public/Data%20Science%20Gradient%20Icon.png?raw=true',
   },
   social: {
     linkedin: 'drewmillane',
