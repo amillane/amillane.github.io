@@ -41,9 +41,9 @@ const CONFIG = {
           link: 'https://example.com',
         },
         {
-          title: 'Project Name',
+          title: 'The Monument Project',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Testing',
           imageUrl:'https://github.com/amillane/amillane.github.io/blob/main/public/test.jpeg?raw=true',
           link: 'https://example.com',
         },
