@@ -136,7 +136,10 @@ const ExternalProjectCard = ({
                       skeleton({ widthCls: 'w-40', heightCls: 'h-8' })
                     ) : (
                       <span className="text-base-content opacity-70">
-                        {header}
+                        <!--
+                          {header}
+                          -->
+                        Projects
                       </span>
                     )}
                   </h5>
