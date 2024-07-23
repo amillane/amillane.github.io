@@ -79,7 +79,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1fbRDV9iH3b0mhC3pJDvn6NdbQOhM9B1j/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
    'R',
