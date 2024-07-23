@@ -230,12 +230,13 @@ const GitProfile = ({ config }: { config: Config }) => {
                         experiences={sanitizedConfig.experiences}
                       />
                     )}
-                    {sanitizedConfig.certifications.length !== 0 && (
+  
+                     { /* sanitizedConfig.certifications.length !== 0 && (
                       <CertificationCard
                         loading={loading}
                         certifications={sanitizedConfig.certifications}
                       />
-                    )}
+                    ) */} 
                     {sanitizedConfig.educations.length !== 0 && (
                       <EducationCard
                         loading={loading}
