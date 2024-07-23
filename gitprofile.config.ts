@@ -47,6 +47,13 @@ const CONFIG = {
           imageUrl:'https://github.com/amillane/amillane.github.io/blob/main/public/test.jpeg?raw=true',
           link: 'https://example.com',
         },
+        {
+          title: 'The Monument Project',
+          description:
+            'Testing',
+          imageUrl:'https://github.com/amillane/amillane.github.io/blob/main/public/test.jpeg?raw=true',
+          link: 'https://example.com',
+        },
       ],
     },
   },
