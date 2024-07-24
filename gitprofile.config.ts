@@ -52,7 +52,7 @@ const CONFIG = {
   },
   seo: {
     title: 'Drew Millane',
-    description: 'Portfolio of Drew Millane',
+    description: '',
     imageURL: 'https://github.com/amillane/amillane.github.io/blob/main/public/favicon-16x16.png?raw=true',
   },
   social: {
