@@ -45,7 +45,7 @@ const CONFIG = {
           description:
             'Testing',
           imageUrl:'https://github.com/amillane/amillane.github.io/blob/main/public/test.jpeg?raw=true',
-          link: 'https://example.com',
+          link: 'https://amillane.github.io/stat386-projects/2022/12/06/data-project.html',
         },
       ],
     },
