@@ -18,14 +18,16 @@ const BlogCard2 = ({
     const array = [];
     for (let index = 0; index < externalProjects.length; index++) {
       array.push(
-        <div className="card shadow-lg compact bg-base-100 mb-4" key={index}>
-          <div className="p-4 h-full w-full flex items-center">
-            <div className="avatar w-24 h-24 mask mask-squircle mr-4">
-              {skeleton({
-                widthCls: 'w-full',
-                heightCls: 'h-full',
-                shape: '',
-              })}
+        <div className="card shadow-lg compact bg-base-100" key={index}>
+          <div className="p-8 h-full w-full">
+            <div className="avatar mb-5 md:mb-0">
+              <div className="w-24 h-24 mask mask-squircle">
+                {skeleton({
+                  widthCls: 'w-full',
+                  heightCls: 'h-full',
+                  shape: '',
+                })}
+              </div>
             </div>
             <div className="w-full">
               <h2>
@@ -58,7 +60,7 @@ const BlogCard2 = ({
   const renderExternalProjects = () => {
     return externalProjects.map((item, index) => (
       <a
-        className="card shadow-lg compact bg-base-100 mb-4 cursor-pointer"
+        className="card shadow-lg compact bg-base-100 cursor-pointer"
         key={index}
         href={item.link}
         onClick={(e) => {
@@ -77,9 +79,9 @@ const BlogCard2 = ({
           window?.open(item.link, '_blank');
         }}
       >
-        <div className="p-4 h-full w-full flex items-center">
+        <div className="p-8 h-full w-full">
           {item.imageUrl && (
-            <div className="avatar w-24 h-24 mask mask-squircle mr-4">
+            <div className="avatar mb-5 w-24 h-24 mask mask-squircle">
               <LazyImage
                 src={item.imageUrl}
                 alt={'thumbnail'}
