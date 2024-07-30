@@ -269,7 +269,7 @@ const GitProfile = ({ config }: { config: Config }) => {
                         googleAnalyticId={sanitizedConfig.googleAnalytics.id}
                       />
                     )}
-                    {sanitizedConfig.blog2.length !==
+                    {sanitizedConfig.blog2.projects.length !==
                       0 && (
                       <BlogCard2
                         loading={loading}
