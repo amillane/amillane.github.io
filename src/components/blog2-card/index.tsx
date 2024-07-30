@@ -9,7 +9,7 @@ const BlogCard2 = ({
   loading,
   googleAnalyticId,
 }: {
-  externalProjects: SanitizedExternalProject[];
+  externalProjects: SanitizedBlog2[];
   header: string;
   loading: boolean;
   googleAnalyticId?: string;
