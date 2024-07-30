@@ -18,16 +18,14 @@ const BlogCard2 = ({
     const array = [];
     for (let index = 0; index < externalProjects.length; index++) {
       array.push(
-        <div className="card shadow-lg compact bg-base-100" key={index}>
-          <div className="p-8 h-full w-full">
-            <div className="avatar mb-5 md:mb-0">
-              <div className="w-24 h-24 mask mask-squircle">
-                {skeleton({
-                  widthCls: 'w-full',
-                  heightCls: 'h-full',
-                  shape: '',
-                })}
-              </div>
+        <div className="card shadow-lg compact bg-base-100 mb-4" key={index}>
+          <div className="p-8 h-full w-full flex flex-row items-center">
+            <div className="avatar w-24 h-24 mask mask-squircle mr-4">
+              {skeleton({
+                widthCls: 'w-full',
+                heightCls: 'h-full',
+                shape: '',
+              })}
             </div>
             <div className="w-full">
               <h2>
@@ -60,7 +58,7 @@ const BlogCard2 = ({
   const renderExternalProjects = () => {
     return externalProjects.map((item, index) => (
       <a
-        className="card shadow-lg compact bg-base-100 cursor-pointer"
+        className="card shadow-lg compact bg-base-100 mb-4 cursor-pointer"
         key={index}
         href={item.link}
         onClick={(e) => {
@@ -79,9 +77,9 @@ const BlogCard2 = ({
           window?.open(item.link, '_blank');
         }}
       >
-        <div className="p-8 h-full w-full">
+        <div className="p-8 h-full w-full flex flex-row items-center">
           {item.imageUrl && (
-            <div className="avatar mb-5 w-24 h-24 mask mask-squircle">
+            <div className="avatar w-24 h-24 mask mask-squircle mr-4">
               <LazyImage
                 src={item.imageUrl}
                 alt={'thumbnail'}
@@ -107,7 +105,7 @@ const BlogCard2 = ({
   return (
     <Fragment>
       <div className="col-span-1 lg:col-span-2">
-        <div className="grid grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 gap-6">
           <div className="col-span-2">
             <div className="card compact bg-base-100 shadow bg-opacity-40">
               <div className="card-body">
