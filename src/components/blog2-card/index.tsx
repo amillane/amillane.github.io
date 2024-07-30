@@ -2,6 +2,8 @@ import { Fragment } from 'react';
 import LazyImage from '../lazy-image';
 import { ga, skeleton } from '../../utils';
 import { SanitizedBlog2 } from '../../interfaces/sanitized-config';
+import { Article } from '../../interfaces/article';
+
 
 const BlogCard2 = ({
   externalProjects,
