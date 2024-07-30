@@ -18,40 +18,45 @@ const BlogCard2 = ({
     const array = [];
     for (let index = 0; index < externalProjects.length; index++) {
       array.push(
-        <div className="card shadow-lg compact bg-base-100" key={index}>
+      <div className="card shadow-lg compact bg-base-100" key={index}>
           <div className="p-8 h-full w-full">
             <div className="flex items-center flex-col md:flex-row">
+              <div className="avatar mb-5 md:mb-0">
+                <div className="w-24 h-24 mask mask-squircle">
+                  {skeleton({
+                    widthCls: 'w-full',
+                    heightCls: 'h-full',
+                    shape: '',
+                  })}
+                </div>
+              </div>
               <div className="w-full">
                 <div className="flex items-start px-4">
                   <div className="w-full">
                     <h2>
                       {skeleton({
-                        widthCls: 'w-32',
+                        widthCls: 'w-full',
                         heightCls: 'h-8',
-                        className: 'mb-2 mx-auto',
+                        className: 'mb-2 mx-auto md:mx-0',
                       })}
                     </h2>
-                    <div className="avatar w-full h-full">
-                      <div className="w-16 h-16 mask mask-squircle mx-auto">
-                        {skeleton({
-                          widthCls: 'w-full',
-                          heightCls: 'h-full',
-                          shape: '',
-                        })}
-                      </div>
-                    </div>
-                    <div className="mt-2">
+                    {skeleton({
+                      widthCls: 'w-24',
+                      heightCls: 'h-3',
+                      className: 'mx-auto md:mx-0',
+                    })}
+                    <div className="mt-3">
                       {skeleton({
                         widthCls: 'w-full',
                         heightCls: 'h-4',
-                        className: 'mx-auto',
+                        className: 'mx-auto md:mx-0',
                       })}
                     </div>
-                    <div className="mt-2 flex items-center flex-wrap justify-center">
+                    <div className="mt-4 flex items-center flex-wrap justify-center md:justify-start">
                       {skeleton({
-                        widthCls: 'w-full',
+                        widthCls: 'w-32',
                         heightCls: 'h-4',
-                        className: 'mx-auto',
+                        className: 'md:mr-2 mx-auto md:mx-0',
                       })}
                     </div>
                   </div>
