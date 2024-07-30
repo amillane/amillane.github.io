@@ -387,6 +387,12 @@ interface Config {
   projects?: Projects;
 
   /**
+   * Projects config
+   */
+  blog2?: Blog2;
+
+
+  /**
    * SEO config
    */
   seo?: SEO;
