@@ -3,7 +3,7 @@ import LazyImage from '../lazy-image';
 import { ga, skeleton } from '../../utils';
 import { SanitizedExternalProject } from '../../interfaces/sanitized-config';
 
-const ExternalProjectCard = ({
+const BlogCard2 = ({
   externalProjects,
   header,
   loading,
