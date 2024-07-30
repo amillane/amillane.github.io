@@ -20,7 +20,7 @@ const BlogCard2 = ({
       array.push(
         <div className="card shadow-lg compact bg-base-100" key={index}>
           <div className="p-8 h-full w-full">
-            <div className="flex items-center flex-row">
+            <div className="flex items-center flex-col md:flex-row">
               <div className="w-full">
                 <div className="flex items-start px-4">
                   <div className="w-full">
