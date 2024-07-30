@@ -51,7 +51,7 @@ const CONFIG = {
     },
   },
   blog2: {
-      header: 'Projects',
+      header: 'Articles',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
@@ -63,7 +63,7 @@ const CONFIG = {
           link: 'https://example.com',
         },
         {
-          title: 'A Peek Through the Cloud',
+          title: 'A Peek Through the Clouds',
           description:
             'Testing',
           imageUrl:'https://github.com/amillane/amillane.github.io/blob/main/public/test.jpeg?raw=true',
