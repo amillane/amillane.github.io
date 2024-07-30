@@ -18,7 +18,7 @@ const BlogCard2 = ({
     const array = [];
     for (let index = 0; index < externalProjects.length; index++) {
       array.push(
-        <div className="card shadow-lg compact bg-base-100 mb-4" key={index}>
+        <div className="card shadow-lg compact bg-base-100 mb-6" key={index}>
           <div className="p-8 h-full w-full flex flex-row items-center">
             <div className="avatar w-24 h-24 mask mask-squircle mr-4">
               {skeleton({
@@ -58,7 +58,7 @@ const BlogCard2 = ({
   const renderExternalProjects = () => {
     return externalProjects.map((item, index) => (
       <a
-        className="card shadow-lg compact bg-base-100 mb-4 cursor-pointer"
+        className="card shadow-lg compact bg-base-100 mb-6 cursor-pointer"
         key={index}
         href={item.link}
         onClick={(e) => {
