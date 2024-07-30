@@ -28,6 +28,7 @@ import { GithubProject } from '../interfaces/github-project';
 import GithubProjectCard from './github-project-card';
 import ExternalProjectCard from './external-project-card';
 // import BlogCard from './blog-card';
+import BlogCard2 from './blog2-card'
 import Footer from './footer';
 import PublicationCard from './publication-card';
 
@@ -270,7 +271,7 @@ const GitProfile = ({ config }: { config: Config }) => {
                     )}
                     {sanitizedConfig.projects.external.projects.length !==
                       0 && (
-                      <ExternalProjectCard
+                      <BlogCard2
                         loading={loading}
                         header={sanitizedConfig.projects.external.header}
                         externalProjects={
