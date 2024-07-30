@@ -50,6 +50,27 @@ const CONFIG = {
       ],
     },
   },
+  blog: {
+      header: 'Projects',
+      // To hide the `External Projects` section, keep it empty.
+      projects: [
+        {
+          title: 'Project Name',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+          imageUrl:
+            'https://s3-eu-west-1.amazonaws.com/blog-ecotree/blog/0001/01/ad46dbb447cd0e9a6aeecd64cc2bd332b0cbcb79.jpeg',
+          link: 'https://example.com',
+        },
+        {
+          title: 'A Peek Through the Cloud',
+          description:
+            'Testing',
+          imageUrl:'https://github.com/amillane/amillane.github.io/blob/main/public/test.jpeg?raw=true',
+          link: '/DataTrailblazing/blog/eda/',
+        },
+      ],
+    },
   seo: {
     title: 'Drew Millane',
     description: '',
