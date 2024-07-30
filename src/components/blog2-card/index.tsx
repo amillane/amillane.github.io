@@ -20,38 +20,43 @@ const BlogCard2 = ({
       array.push(
         <div className="card shadow-lg compact bg-base-100" key={index}>
           <div className="p-8 h-full w-full">
-            <div className="flex items-center flex-col">
+            <div className="flex items-center flex-col md:flex-row">
+              <div className="avatar mb-5 md:mb-0">
+                <div className="w-24 h-24 mask mask-squircle">
+                  {skeleton({
+                    widthCls: 'w-full',
+                    heightCls: 'h-full',
+                    shape: '',
+                  })}
+                </div>
+              </div>
               <div className="w-full">
                 <div className="flex items-start px-4">
                   <div className="w-full">
                     <h2>
                       {skeleton({
-                        widthCls: 'w-32',
+                        widthCls: 'w-full',
                         heightCls: 'h-8',
-                        className: 'mb-2 mx-auto',
+                        className: 'mb-2 mx-auto md:mx-0',
                       })}
                     </h2>
-                    <div className="avatar w-full h-full">
-                      <div className="w-24 h-24 mask mask-squircle mx-auto">
-                        {skeleton({
-                          widthCls: 'w-full',
-                          heightCls: 'h-full',
-                          shape: '',
-                        })}
-                      </div>
-                    </div>
-                    <div className="mt-2">
+                    {skeleton({
+                      widthCls: 'w-24',
+                      heightCls: 'h-3',
+                      className: 'mx-auto md:mx-0',
+                    })}
+                    <div className="mt-3">
                       {skeleton({
                         widthCls: 'w-full',
                         heightCls: 'h-4',
-                        className: 'mx-auto',
+                        className: 'mx-auto md:mx-0',
                       })}
                     </div>
-                    <div className="mt-2 flex items-center flex-wrap justify-center">
+                    <div className="mt-4 flex items-center flex-wrap justify-center md:justify-start">
                       {skeleton({
-                        widthCls: 'w-full',
+                        widthCls: 'w-32',
                         heightCls: 'h-4',
-                        className: 'mx-auto',
+                        className: 'md:mr-2 mx-auto md:mx-0',
                       })}
                     </div>
                   </div>
@@ -89,31 +94,44 @@ const BlogCard2 = ({
         }}
       >
         <div className="p-8 h-full w-full">
-          <div className="flex items-center flex-col">
+          <div className="flex items-center flex-col md:flex-row">
+            <div className="avatar mb-5 md:mb-0 opacity-90">
+              <div className="w-24 h-24 mask mask-squircle">
+                <LazyImage
+                  src={item.imageUrl}
+                  alt={'thumbnail'}
+                  placeholder={skeleton({
+                    widthCls: 'w-full',
+                    heightCls: 'h-full',
+                    shape: '',
+                  })}
+                />
+              </div>
+            </div>
             <div className="w-full">
-              <div className="px-4">
-                <div className="text-center w-full">
-                  <h2 className="font-medium text-center opacity-60 mb-2">
+              <div className="flex items-start px-4">
+                <div className="text-center md:text-left w-full">
+                  <h2 className="font-medium text-base-content opacity-60">
                     {item.title}
                   </h2>
-                  {item.imageUrl && (
-                    <div className="avatar opacity-90">
-                      <div className="w-24 h-24 mask mask-squircle">
-                        <LazyImage
-                          src={item.imageUrl}
-                          alt={'thumbnail'}
-                          placeholder={skeleton({
-                            widthCls: 'w-full',
-                            heightCls: 'h-full',
-                            shape: '',
-                          })}
-                        />
-                      </div>
-                    </div>
-                  )}
-                  <p className="mt-2 text-base-content text-opacity-60 text-sm text-justify">
+                  <p className="text-base-content opacity-50 text-xs">
+                    {formatDistance(item.publishedAt, new Date(), {
+                      addSuffix: true,
+                    })}
+                  </p>
+                  <p className="mt-3 text-base-content text-opacity-60 text-sm">
                     {item.description}
                   </p>
+                  <div className="mt-4 flex items-center flex-wrap justify-center md:justify-start">
+                    {item.categories.map((category, index2) => (
+                      <div
+                        className="py-2 px-4 text-xs leading-3 rounded-full bg-base-300 mr-1 mb-1 opacity-50 text-base-content"
+                        key={index2}
+                      >
+                        #{category}
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>
@@ -130,13 +148,13 @@ const BlogCard2 = ({
           <div className="col-span-2">
             <div className="card compact bg-base-100 shadow bg-opacity-40">
               <div className="card-body">
-                <div className="mx-3 flex items-center justify-between mb-2">
+                <div className="mx-3 mb-2">
                   <h5 className="card-title">
                     {loading ? (
-                      skeleton({ widthCls: 'w-40', heightCls: 'h-8' })
+                      skeleton({ widthCls: 'w-28', heightCls: 'h-8' })
                     ) : (
                       <span className="text-base-content opacity-70">
-                          {header}
+                        {header}
                       </span>
                     )}
                   </h5>
@@ -156,3 +174,4 @@ const BlogCard2 = ({
 };
 
 export default BlogCard2;
+
