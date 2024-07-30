@@ -150,6 +150,7 @@ export interface SanitizedThemeConfig {
 export interface SanitizedConfig {
   github: SanitizedGithub;
   projects: SanitizedProjects;
+  blog2: SanitizedBlogs2;
   seo: SanitizedSEO;
   social: SanitizedSocial;
   resume: SanitizedResume;
