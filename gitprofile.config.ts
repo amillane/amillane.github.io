@@ -50,7 +50,7 @@ const CONFIG = {
       ],
     },
   },
-  blog: {
+  blog2: {
       header: 'Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
