@@ -155,4 +155,4 @@ const BlogCard2 = ({
   );
 };
 
-export default ExternalProjectCard;
+export default BlogCard2;
