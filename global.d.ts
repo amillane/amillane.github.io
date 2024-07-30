@@ -83,6 +83,23 @@ interface ExternalProjects {
   }[];
 }
 
+interface Blog2 {
+  /**
+   * Header
+   */
+  header?: string;
+
+  /**
+   * Project list
+   */
+  projects?: {
+    title: string;
+    description?: string;
+    imageUrl?: string;
+    link: string;
+  }[];
+}
+
 interface Projects {
   github?: GitHubProjects;
 
