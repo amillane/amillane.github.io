@@ -20,7 +20,7 @@ const BlogCard2 = ({
       array.push(
         <div className="card shadow-lg compact bg-base-100" key={index}>
           <div className="p-8 h-full w-full">
-            <div className="flex items-center flex-col">
+            <div className="flex items-center flex-row">
               <div className="w-full">
                 <div className="flex items-start px-4">
                   <div className="w-full">
@@ -32,7 +32,7 @@ const BlogCard2 = ({
                       })}
                     </h2>
                     <div className="avatar w-full h-full">
-                      <div className="w-24 h-24 mask mask-squircle mx-auto">
+                      <div className="w-16 h-16 mask mask-squircle mx-auto">
                         {skeleton({
                           widthCls: 'w-full',
                           heightCls: 'h-full',
@@ -89,7 +89,7 @@ const BlogCard2 = ({
         }}
       >
         <div className="p-8 h-full w-full">
-          <div className="flex items-center flex-col">
+          <div className="flex items-center flex-row">
             <div className="w-full">
               <div className="px-4">
                 <div className="text-center w-full">
@@ -98,7 +98,7 @@ const BlogCard2 = ({
                   </h2>
                   {item.imageUrl && (
                     <div className="avatar opacity-90">
-                      <div className="w-24 h-24 mask mask-squircle">
+                      <div className="w-16 h-16 mask mask-squircle">
                         <LazyImage
                           src={item.imageUrl}
                           alt={'thumbnail'}
