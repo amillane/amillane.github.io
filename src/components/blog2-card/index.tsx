@@ -1,4 +1,4 @@
-mport { Fragment } from 'react';
+import { Fragment } from 'react';
 import LazyImage from '../lazy-image';
 import { ga, skeleton } from '../../utils';
 import { SanitizedBlog2 } from '../../interfaces/sanitized-config';
