@@ -31,6 +31,18 @@ export interface SanitizedExternalProjects {
   projects: SanitizedExternalProject[];
 }
 
+export interface SanitizedBlog2 {
+  title: string;
+  description?: string;
+  imageUrl?: string;
+  link: string;
+}
+
+export interface SanitizedBlogs2 {
+  header: string;
+  projects: SanitizedBlog2[];
+}
+
 export interface SanitizedProjects {
   github: SanitizedGitHubProjects;
   external: SanitizedExternalProjects;
