@@ -96,6 +96,15 @@ const BlogCard2 = ({
             <p className="text-base-content text-opacity-60 text-sm">
               {item.description}
             </p>
+            {item.tags && item.tags.length > 0 && (
+              <div className="mt-2">
+                {item.tags.map((tag, tagIndex) => (
+                  <span key={tagIndex} className="badge badge-secondary mr-1">
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            )}
           </div>
         </div>
       </a>
