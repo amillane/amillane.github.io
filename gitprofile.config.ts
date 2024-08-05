@@ -65,7 +65,7 @@ const CONFIG = {
           title: 'A Peek Through the Clouds',
           description:
             'John Tukey once said, “The greatest value of a picture is when it forces us to notice what we never expected to see”. There is something beautiful about taking a hodgepodge of data and transforming it into a story. What we could not see is now unveiled for us to discover and ask more questions. ',
-          imageUrl:'https://github.com/amillane/amillane.github.io/blob/main/public/test.jpeg?raw=true',
+          imageUrl:'https://miro.medium.com/v2/resize:fit:800/1*swBI4_YaHnMIwOvz3rGuFQ.jpeg',
           link: '/DataTrailblazing/blog/eda/',
         },
         {
