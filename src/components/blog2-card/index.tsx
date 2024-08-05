@@ -47,6 +47,16 @@ const BlogCard2 = ({
                   heightCls: 'h-4',
                 })}
               </div>
+              <div className="mt-4 flex items-center flex-wrap">
+                {Array(3).fill(null).map((_, index2) => (
+                  skeleton({
+                    widthCls: 'w-20',
+                    heightCls: 'h-4',
+                    className: 'mr-1 mb-1',
+                    key: index2
+                  })
+                ))}
+              </div>
             </div>
           </div>
         </div>
@@ -96,6 +106,16 @@ const BlogCard2 = ({
             <p className="text-base-content text-opacity-60 text-sm">
               {item.description}
             </p>
+            <div className="mt-4 flex items-center flex-wrap">
+              {item.tags.map((tag, index2) => (
+                <div
+                  className="py-1 px-3 text-xs leading-3 rounded-full bg-base-300 mr-1 mb-1 opacity-50 text-base-content"
+                  key={index2}
+                >
+                  #{tag}
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </a>
