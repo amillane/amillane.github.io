@@ -99,7 +99,7 @@ const BlogCard2 = ({
             {item.tags && item.tags.length > 0 && (
               <div className="mt-2">
                 {item.tags.map((tag, tagIndex) => (
-                  <span key={tagIndex} className=""m-1 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 badge-primary bg-opacity-90 rounded-full">
+                  <span key={tagIndex} className="m-1 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 badge-primary bg-opacity-90 rounded-full">
                     {tag}
                   </span>
                 ))}
