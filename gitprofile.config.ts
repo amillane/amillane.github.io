@@ -61,7 +61,7 @@ const CONFIG = {
           imageUrl:'https://images.unsplash.com/photo-1559828187-9bf6757861f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80',
           link: '/DataTrailblazing/blog/class-project/',
         },
-                {
+        {
           title: 'A Peek Through the Clouds',
           description:
             'John Tukey once said, “The greatest value of a picture is when it forces us to notice what we never expected to see”. There is something beautiful about taking a hodgepodge of data and transforming it into a story. What we could not see is now unveiled for us to discover and ask more questions. ',
