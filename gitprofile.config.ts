@@ -69,7 +69,7 @@ const CONFIG = {
           link: '/DataTrailblazing/blog/eda/',
         },
         {
-          title: 'API's Right As Rain',
+          title: 'API Right As Rain',
           description:
             'North America is in a crisis. A crisis that trumps all other crises we are experiencing. The west is enduring one of the longest droughts ever recorded, which is bringing many dire consequences. While this problem looms over our heads, many are stepping up to the plate to solve this issue of water usage.',
           imageUrl:
