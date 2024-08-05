@@ -108,23 +108,31 @@ const CONFIG = {
     'SQL',
     'sklearn',
     'tidymodels',
-    'Excel'
+    'Excel',
+    'RShiny'
     
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'Imetrum',
+      position: 'Data Science Intern',
+      from: 'June 2024',
+      to: 'August 2024',
+      companyLink: 'https://www.imetrum.com/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'BYU Statistics Department',
+      position: 'Research Assistant',
+      from: 'April 2022',
+      to: 'Present',
+      companyLink: 'https://statistics.byu.edu/',
+    },
+       {
+      company: 'BYU Statistics Department',
+      position: 'Teaching Assistant',
+      from: 'December 2021',
+      to: 'Present',
+      companyLink: 'https://statistics.byu.edu/',
     },
   ],
   certifications: [
