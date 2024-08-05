@@ -96,6 +96,7 @@ interface Blog2 {
     title: string;
     description?: string;
     imageUrl?: string;
+    tags?: Array<string>;
     link: string;
   }[];
 }
