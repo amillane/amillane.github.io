@@ -60,7 +60,7 @@ const CONFIG = {
             'For those who have been with me this entire journey, I hope you enjoyed the project as much as I did! This project started with a desire to know what is going on with the weather here in the West, specifically in Provo, Utah.',
           imageUrl:'https://images.unsplash.com/photo-1559828187-9bf6757861f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80',
           tags: ['#project', '#weather', '#rain'],
-          link: '/DataTrailblazing/blog/class-project/',
+          link: '/DataTrailblazing/post/class-project/',
         },
         {
           title: 'A Peek Through the Clouds',
@@ -68,7 +68,7 @@ const CONFIG = {
             'John Tukey once said, “The greatest value of a picture is when it forces us to notice what we never expected to see”. There is something beautiful about taking a hodgepodge of data and transforming it into a story. What we could not see is now unveiled for us to discover and ask more questions. ',
           imageUrl:'https://miro.medium.com/v2/resize:fit:800/1*swBI4_YaHnMIwOvz3rGuFQ.jpeg',
           tags: ['#eda', '#weather'],
-          link: '/DataTrailblazing/blog/eda/',
+          link: '/DataTrailblazing/post/eda/',
         },
         {
           title: 'API Right As Rain',
@@ -77,7 +77,7 @@ const CONFIG = {
           imageUrl:
             'https://www.stockvault.net/data/2007/03/01/98725/preview16.jpg',
           tags: ['#api', '#weather', '#drought'],
-          link: '/DataTrailblazing/blog/api/',
+          link: '/DataTrailblazing/post/api/',
         },
         {
           title: 'A Nature Walk Into Machine Learning',
@@ -85,7 +85,7 @@ const CONFIG = {
             'If you are wanting to know how to implement random forests in R, then you have come to the right place! Machine learning is a powerful tool that helps us accurately predict certain outcomes by creating a model with the information we give it. In other words, it ‘learns’ with what is given and predicts with data that hasn’t been seen yet.',
           imageUrl:'https://www.timeforkids.com/wp-content/uploads/2019/09/final-cover-forest.jpg',
           tags: ['#machinelearning', '#randomforest', '#kaggle'],
-          link: '/DataTrailblazing/blog/random-forest/',
+          link: '/DataTrailblazing/post/random-forest/',
         },
       ],
     },
