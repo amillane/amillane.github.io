@@ -33,19 +33,18 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+          title: 'Geocaching: How to Create a Favorite Geocache',
+          description:'Geocaching is the largest treasure hunt in the world. With the number of active geocachers and caches in the world growing every year, it is important to know what kind of geocache people like to find. Our Bayesian hierarchical model studies geocache data from Utah and California, asking whether the Terrain and Difficulty rating of a cache affects the number of favorites it receives.',
           imageUrl:
             'https://s3-eu-west-1.amazonaws.com/blog-ecotree/blog/0001/01/ad46dbb447cd0e9a6aeecd64cc2bd332b0cbcb79.jpeg',
-          link: 'https://example.com',
+          link: '/DataTrailblazing/projects',
         },
         {
           title: 'The Monument Project',
           description:
-            'Testing',
+            'Working alongside the Lord Mayor of London, City, University of London, and Imetrum, we began uncovering answers to questions about the Great Fire of London monument created by scientist Robert Hooke.',
           imageUrl:'https://github.com/amillane/amillane.github.io/blob/main/public/test.jpeg?raw=true',
-          link: '/DataTrailblazing/',
+          link: '/DataTrailblazing/projects',
         },
       ],
     },
