@@ -34,9 +34,9 @@ const CONFIG = {
       projects: [
         {
           title: 'Geocaching: How to Create a Favorite Geocache',
-          description:'Geocaching is the largest treasure hunt in the world. With the number of active geocachers and caches in the world growing every year, it is important to know what kind of geocache people like to find. Our Bayesian hierarchical model studies geocache data from Utah and California, asking whether the Terrain and Difficulty rating of a cache affects the number of favorites it receives.',
+          description: 'Our Bayesian hierarchical model studies geocache data from Utah and California, asking whether the Terrain and Difficulty rating of a cache affects the number of favorites it receives.',
           imageUrl:
-            'https://s3-eu-west-1.amazonaws.com/blog-ecotree/blog/0001/01/ad46dbb447cd0e9a6aeecd64cc2bd332b0cbcb79.jpeg',
+            'https://github.com/amillane/amillane.github.io/blob/main/public/Geocaching_Logo.png?raw=true',
           link: '/DataTrailblazing/projects',
         },
         {
