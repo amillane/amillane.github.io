@@ -33,7 +33,7 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Geocaching: How to Create a Favorite Geocache',
+          title: 'Caching In With Bayesian Statistics',
           description: 'Our Bayesian hierarchical model studies geocache data from Utah and California, asking whether the Terrain and Difficulty rating of a cache affects the number of favorites it receives.',
           imageUrl:
             'https://github.com/amillane/amillane.github.io/blob/main/public/Geocaching_Logo.png?raw=true',
