@@ -37,7 +37,7 @@ const CONFIG = {
           description: 'Our Bayesian hierarchical model studies geocache data from Utah and California, asking whether the Terrain and Difficulty rating of a cache affects the number of favorites it receives.',
           imageUrl:
             'https://github.com/amillane/amillane.github.io/blob/main/public/Geocaching_Logo.png?raw=true',
-          link: '/DataTrailblazing/projects',
+          link: 'https://amillane.github.io/DataTrailblazing/projects/geocache/',
         },
         {
           title: 'The Monument Project',
