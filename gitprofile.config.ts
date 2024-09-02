@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['amillane/spatialtransform','amillane/geocache_bayesian_project','amillane/amillane.github.io', 'amillane/DataTrailblazing'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['amillane/spatialtransform','amillane/geocache-bayesian-project','amillane/amillane.github.io', 'amillane/DataTrailblazing'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
