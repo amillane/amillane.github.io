@@ -123,10 +123,17 @@ const CONFIG = {
    'R',
   'Python',
     'SQL',
+    'SAS',
     'sklearn',
     'tidymodels',
     'Excel',
-    'RShiny'
+    'RShiny',
+    'Bayesian Statistics',
+    'Statistical Modeling',
+    'Predictive Analytics',
+    'Linear Models',
+    'Machine Learning',
+    'Data Mining'
     
   ],
   experiences: [
