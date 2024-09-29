@@ -143,6 +143,20 @@ const CONFIG = {
     
   ],
   experiences: [
+      {
+      company: 'BYU Statistics Department',
+      position: 'Research Assistant',
+      from: 'April 2022',
+      to: 'Present',
+      companyLink: 'https://statistics.byu.edu/',
+      },
+       {
+      company: 'BYU Statistics Department',
+      position: 'Teaching Assistant',
+      from: 'December 2021',
+      to: 'Present',
+      companyLink: 'https://statistics.byu.edu/',
+    },
     {
       company: 'Imetrum',
       position: 'Data Science Intern',
@@ -154,13 +168,6 @@ const CONFIG = {
       company: 'BYU Statistics Department',
       position: 'Research Assistant',
       from: 'April 2022',
-      to: 'Present',
-      companyLink: 'https://statistics.byu.edu/',
-    },
-       {
-      company: 'BYU Statistics Department',
-      position: 'Teaching Assistant',
-      from: 'December 2021',
       to: 'Present',
       companyLink: 'https://statistics.byu.edu/',
     },
