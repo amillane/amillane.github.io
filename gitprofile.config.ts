@@ -126,14 +126,20 @@ const CONFIG = {
     'SAS',
     'sklearn',
     'tidymodels',
+    'Linux',
     'Excel',
     'RShiny',
+    'STAN',
+    'NIMBLE',
+    'JAGS',
     'Bayesian Statistics',
     'Statistical Modeling',
     'Predictive Analytics',
     'Linear Models',
     'Machine Learning',
-    'Data Mining'
+    'Data Mining',
+    'Generalized Linear Models',
+    'Mixed Models'
     
   ],
   experiences: [
