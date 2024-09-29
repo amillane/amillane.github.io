@@ -164,13 +164,6 @@ const CONFIG = {
       to: 'August 2024',
       companyLink: 'https://www.imetrum.com/',
     },
-    {
-      company: 'BYU Statistics Department',
-      position: 'Research Assistant',
-      from: 'April 2022',
-      to: 'Present',
-      companyLink: 'https://statistics.byu.edu/',
-    },
   ],
   certifications: [
     {
