@@ -144,6 +144,13 @@ const CONFIG = {
   ],
   experiences: [
       {
+      company: 'Y2 Analytics',
+      position: 'Intern Data Analyst',
+      from: 'January 2025',
+      to: 'Present',
+      companyLink: 'https://y2analytics.com/',
+      },
+      {
       company: 'BYU Statistics Department',
       position: 'Research Assistant',
       from: 'April 2022',
