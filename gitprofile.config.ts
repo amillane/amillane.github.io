@@ -46,6 +46,13 @@ const CONFIG = {
           imageUrl:'https://github.com/amillane/amillane.github.io/blob/main/public/test.jpeg?raw=true',
           link: '/DataTrailblazing/projects/monument',
         },
+        {
+          title: 'Support Vector Regression',
+          description:
+            'Support Vector Regression (SVR) is a powerful supervised learning technique that balances complexity and generalization by minimizing a regularized risk function. This document explores the theoretical foundations of SVR, its implementation, and its application in predictive modeling.',
+          imageUrl:'',
+          link: 'https://amillane.github.io/DataTrailblazing/projects/svr',
+        },
       ],
     },
   },
